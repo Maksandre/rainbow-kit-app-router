@@ -1,0 +1,32 @@
+{
+  "name": "rainbow-kit-app-router-template",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "codestyle": "npx prettier . --write"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^1.3.0",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "viem": "~1.19.4",
+    "wagmi": "~1.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.18.10",
+    "@types/react": "^18.2.37",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^13.4.19",
+    "next": "^13.4.19",
+    "prettier": "3.1.1",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=16.8.0"
+  }
+}
